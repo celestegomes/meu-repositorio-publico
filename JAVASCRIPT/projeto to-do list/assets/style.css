@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Anek Latin', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.titulo {
+    display: flex;
+    text-align: center;
+}
+
+.titulo h1{
+    color: darkorchid;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.newTask {
+    display: flex;
+    flex-direction: row;
+}
+
+#addTask{
+    width: 150px;
+    height: 20px;
+    font-size: 14px;
+    background-color: ghostwhite;
+    border-radius: 4px;
+    color: blueviolet;
+    text-align: center;
+}
+
+#button{
+    width: 100px;
+    height: 25px;
+    font-size: 14px;
+    background-color: blueviolet;
+    color: ghostwhite;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
